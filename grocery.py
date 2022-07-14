@@ -41,6 +41,7 @@ class Solution:
         for i in total:
             if i not in final:
                 final.append(i)
+        return final
 
 
 def main():
